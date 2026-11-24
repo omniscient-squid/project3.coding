@@ -1,0 +1,162 @@
+/* Variables */
+:root {
+	/* Colors*/
+	--text: #272b26;
+	--medium-gray: #a5a5a5;
+	--dark-gray: #515151;
+	--green-bg: #9cff00;
+	--light-bg: #e2e5ed;
+	--highlight: #a700ff;
+}
+
+
+/* Global */
+
+body {
+	background-color: var(--light-bg);
+}
+
+button:hover {
+	color: var(--light-bg);
+	background-color: var(--green-bg);
+}
+
+::selection {
+	background-color: var(--highlight);
+}
+
+/* Header */
+
+.header {
+	background: var(--green-bg);
+	margin: -1rem;
+}
+
+.site-banner {
+	position: relative;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.lorem-ipsum {
+	font-family: Arial;
+	color: var(--text);
+	font-size: 12rem;
+	text-decoration: line-through;
+	position: absolute;
+	text-align: center;
+	z-index: 1;
+	inset: 0;  
+	margin-top: 3rem;
+	letter-spacing: -5%;
+}
+
+.text-banner {
+	font-family: "antipol-variable";
+	font-variation-settings: "STCH" 1, "wdth" 100, "wght" 100;
+	color: var(--medium-gray);
+	font-size: 6rem;
+	text-align: center;
+	line-height: 1.9;
+	position: absolute;
+	z-index: 0;
+	top: 15rem;
+}
+
+.quote-banner {
+	color: var(--dark-gray);
+	opacity: 40%;
+	font-size: 1.5rem;
+	text-align: left;
+	line-height: 1;
+	z-index: -1;
+	font-style: normal;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	letter-spacing: -5%;
+
+		.banner-lorem {
+			font-family: "adobe-caslon-pro";
+		}
+
+		.banner-lauren {
+			font-family: "ltc-goudy-thirty";
+			letter-spacing: 1%;
+		}
+	}
+
+/* Main */
+
+.site-heading {
+	font-family: Arial;
+	color: var(--text);
+	font-size: 12rem;
+	text-align: center;
+	margin-top: 5rem;
+	letter-spacing: -5%;
+}
+
+.site-description {
+	font-family: "ltc-remington-typewriter-pro";
+	color: var(--text);
+	font-size: 3rem;
+	max-width: 70rem;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+}
+
+.generator {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.generate-text {
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 4rem;
+	color: var(--light-bg);
+	background-color: var(--text);
+	margin: auto;
+	padding: 0;
+}
+
+.text-populates {
+	background-color: var(--green-bg);
+	font-family: Arial;
+	font-size: 1rem;
+	max-width: 60rem;
+	margin: auto;	
+	padding: 1rem;
+}
+
+/* Footer */
+
+.footer {
+	background-color: var(--green-bg);
+	margin: -1rem;
+	margin-top: 5rem;
+}
+
+.footer-container {
+	padding: 1rem;
+}
+
+.bibliography {
+	font-family: "ltc-remington-typewriter-pro";
+	font-size: 3rem;
+	text-align: center;
+	color: var(--text);
+	margin-top: 4rem;
+	text-decoration: underline;
+}
+
+.authors {
+	font-family: Arial;
+	font-size: 7rem;
+	color: var(--text);
+	text-align: center;
+	text-decoration: none;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
